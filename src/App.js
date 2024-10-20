@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import Papu from "./Papu";
 
 function App() {
   return (
@@ -8,6 +10,12 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          <Papu />
+          <Papu />
+          <Papu />
+          <Papu />
+          <Papu />
+          <Papu />
         </p>
         <a
           className="App-link"
